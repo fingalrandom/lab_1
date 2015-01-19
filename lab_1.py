@@ -42,7 +42,7 @@ def decrypt(text, key):
 def main():
     print "Example of main string:"
     print "[*.py] [input file name] [key file name]\
-    [result file name] [encode or decode]"
+        [result file name] [encode or decode]"
     print "    ""-c"" - encode"
     print "    ""-d"" - decode"
     countPar = len(sys.argv)
